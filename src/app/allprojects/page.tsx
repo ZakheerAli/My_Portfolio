@@ -1,7 +1,3 @@
-
-
-// Rest of your component code remains the same...
-
 "use client";
 import { useState } from 'react';
 import Image from 'next/image';
