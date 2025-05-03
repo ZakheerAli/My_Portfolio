@@ -70,7 +70,7 @@ export default function About() {
           >
             <div className="space-y-6 text-gray-300">
               <p className="text-lg leading-relaxed">
-                <span className="text-white font-medium">👋 Hello!</span> I'm <span className="text-blue-400">Zakheer Ali</span>, a passionate <span className="text-teal-400">Frontend Developer</span> with a deep fascination for <span className="text-purple-400">Artificial Intelligence</span> systems. My journey in tech combines elegant interfaces with intelligent algorithms.
+                <span className="text-white font-medium">👋 Hello!</span> I&apos;m <span className="text-blue-400">Zakheer Ali</span>, a passionate <span className="text-teal-400">Frontend Developer</span> with a deep fascination for <span className="text-purple-400">Artificial Intelligence</span> systems. My journey in tech combines elegant interfaces with intelligent algorithms.
               </p>
 
               <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover:border-teal-400 transition-all duration-300">
@@ -113,7 +113,7 @@ export default function About() {
               </div>
 
               <p className="text-lg leading-relaxed">
-                When I'm not coding, you'll find me <span className="italic text-gray-400">exploring new technologies</span>, contributing to <span className="text-blue-300">open-source projects</span>, or experimenting with <span className="text-teal-300">AI prototypes</span>. My goal is to build solutions that blend intuitive design with cutting-edge intelligence.
+                When I&apos;m not coding, you&apos;ll find me <span className="italic text-gray-400">exploring new technologies</span>, contributing to <span className="text-blue-300">open-source projects</span>, or experimenting with <span className="text-teal-300">AI prototypes</span>. My goal is to build solutions that blend intuitive design with cutting-edge intelligence.
               </p>
             </div>
           </motion.div>
@@ -137,39 +137,3 @@ export default function About() {
   );
 }
 
-// export default function About() {
-//     return (
-//       <section id="about" className="py-12 px-4 bg-gray-50">
-//         <div className="max-w-4xl mx-auto text-center">
-//           <h2 className="text-3xl font-bold mb-8">About Me</h2>
-          
-//           {/* Replace photo with an avatar/icon */}
-//           <div className="flex justify-center mb-6">
-//             <div className="w-32 h-32 rounded-full bg-blue-100 flex items-center justify-center shadow-lg">
-//               <svg 
-//                 xmlns="http://www.w3.org/2000/svg" 
-//                 className="h-16 w-16 text-blue-600" 
-//                 fill="none" 
-//                 viewBox="0 0 24 24" 
-//                 stroke="currentColor"
-//               >
-//                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-//               </svg>
-//             </div>
-//           </div>
-  
-//           <div className="text-lg text-gray-700 max-w-2xl mx-auto">
-//             <p className="mb-4">
-//               👋 Hi, I'm <span className="font-semibold text-blue-600">[Your Name]</span>, a self-taught <span className="font-semibold">[Your Role]</span> passionate about <span className="italic">[e.g., building clean UIs, solving problems with code]</span>.
-//             </p>
-//             <p className="mb-4">
-//               My toolkit includes <span className="font-medium">[Skills, e.g., React, Tailwind CSS, Figma]</span>. I’m currently learning <span className="font-medium">[e.g., Next.js, Python]</span>.
-//             </p>
-//             <p>
-//               When I’m not coding, I enjoy <span className="italic">[Hobbies, e.g., writing, gaming, or photography]</span>.
-//             </p>
-//           </div>
-//         </div>
-//       </section>
-//     );
-//   }

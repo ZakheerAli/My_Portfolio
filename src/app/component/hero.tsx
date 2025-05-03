@@ -9,7 +9,7 @@ export default function HeroSection() {
       <div className="max-w-7xl w-full flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-16">
         {/* Text Content */}
         <div className="mt-16 lg:max-w-2xl max-w-xl w-full">
-          <p className="text-sm text-gray-400 mb-2 font-mono">Hey there, I'm</p>
+          <p className="text-sm text-gray-400 mb-2 font-mono">Hey there, I&apos;m</p>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 leading-tight">
             <span className="bg-gradient-to-r from-blue-500 via-teal-400 to-emerald-500 text-transparent bg-clip-text block">
