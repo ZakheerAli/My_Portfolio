@@ -163,7 +163,8 @@ const projects = [
 
 export default function ProjectsSection() {
   const [activeFilter, setActiveFilter] = useState("all");
-  const [hoveredId, setHoveredId] = useState(null);
+  // const [hoveredId, setHoveredId] = useState(null);
+  const [hoveredId, setHoveredId] = useState<number | null>(null);
 
   const filteredProjects = activeFilter === "all" 
     ? projects 
